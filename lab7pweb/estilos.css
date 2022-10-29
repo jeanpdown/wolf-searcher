@@ -1,0 +1,118 @@
+*{
+  margin:0;
+}
+
+body{
+  height:100vh;
+}
+.navegacion{
+  display:flex;
+  gap: 30px;
+  background: rgba(123,132,132,0.6);
+  height:59px;
+  padding-left:20px;
+  align-items:center;
+  padding-right:20px;
+}
+.buscador{
+  width:100vw;
+  padding-top:30px;
+  height: 90vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:start;
+}
+.buscador-entrada{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:20px;
+}
+.unsa-logo{
+ width:120px; 
+ margin-left:auto;
+}
+a{
+  height:60%;
+  padding-top:20px;
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  border-bottom:10px solid rgba(25,33,10,0.5);
+
+}
+.buscador-text{
+  font-size:4em;
+}
+.buscador-text_imagenes{
+  color:rgb(27,214,226);
+  padding-left:280px; 
+  font-size:2em;
+}
+.buscador-img{
+  width:18em;
+}
+.buscador-entrada_text{
+  width:500px;
+  height:30px;
+  border-radius:25px;
+}
+.cuadro-busqueda{
+  display:flex;
+  justify-content:space-between;
+}
+.buscador-entrada_enviar{
+  width:200px;
+  height:30px;
+}
+.autor{
+  align-self:end;
+  justify-self:end;
+  margin-top:auto;
+  color:rgb(98,115,117);
+  padding-right:30px;
+}
+.autor1{
+  color:rgb(98,115,117);
+  position:absolute;
+  right:30px;
+  bottom:5px;
+}
+.title-avanzado{
+  border-bottom:1px solid black;
+  padding-left:30px;
+  padding-top:30px;
+}
+.enviar{
+  background:#4AB1F2;
+  border:0px;
+  color:white;
+  border-radius:4px;
+  align-self:end;
+  height:30px;
+}
+.enviar:hover{
+  cursor:pointer;
+  background:#01688E;
+}
+.avanzado{
+  width:55em;
+  padding-left:30px;
+  padding-top:30px;
+}
+.entrada{
+  width:43em;
+  height:30px;
+}
+.subtitle{
+  font-size:20px;
+}
+.formulario{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  padding-top:20px;
+
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+
+  <body>
+    <nav class="navegacion">
+      <a href="busqNormal.html">Busqueda Normal</a>
+      <a href="busqImagenes.html">Imagenes de Google</a>
+      <a href="busqAvanzada.html">Busqueda Avanzada</a>
+      <img src="unsa.png" class="unsa-logo">
+    </nav>
+
+    <h1 class="title-avanzado">Buscador avanzado</h1>
+    
+      <div class="avanzado">
+       <h2 class="subtitle">Mostrar páginas que contengan...</h2>
+       
+       <form class="formulario" action="busquedaAvanzada.pl" method="get">
+         <div class="cuadro-busqueda">
+           <p>todas estas palabras:</p>
+           <input type="text" class="entrada" name="si">
+         </div>
+
+         <div class="cuadro-busqueda">
+           <p>esta palabra o frase exacta:</p>
+           <input type="text" class="entrada" name="frase">
+         </div>
+
+         <div class="cuadro-busqueda">
+           <p>ninguna de estas palabras:</p>
+           <input type="text" class="entrada" name="no">
+         </div>
+          
+         <input type="submit" value="Busqueda avanzada" class="enviar">
+       </form>
+    </div>
+    <p class="autor1">Huamani Condori Jeanpiero</p>
+
+  </body>
+</html>
+
